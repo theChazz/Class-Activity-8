@@ -1,0 +1,27 @@
+Setup your development environment to build Ionic apps
+
+latest versions of the CLI and Cordova must be installed
+
+
+check if i have npm and node
+$ node -v
+v11.10.0
+
+$ npm -v
+6.7.0
+
+install the Ionic CLI and Cordova for native app development
+$ npm install -g ionic cordova
+
+fix
+npm install node-sass
+npm install babel-preset-minify --save-dev
+
+run localhost
+$ ionic serve
+
+
+enter project folder of your choosing then to load dependancies
+$ npm install
+
+
